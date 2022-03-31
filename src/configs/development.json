@@ -1,0 +1,15 @@
+{
+    "env": "development",
+    "log": {
+        "format": "dev",
+        "dir": "../logs"
+    },
+    "cors": {
+        "origin": true,
+        "credentials": true
+    },
+    "terraWsUrl": "ws://localhost:26657/websocket",
+    "terraLcdUrl": "http://localhost:1317",
+    "terraChainId": "localterra",
+    "p2pcoinflipContract": "terra13q4dr9tvyjlrlyh9wugy769q4w2cyzsugcrs34"
+}
